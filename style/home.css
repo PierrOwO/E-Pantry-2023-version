@@ -1,0 +1,116 @@
+
+
+
+
+.dane{
+    overflow: hidden;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    height: auto;
+    /*background: white;*/
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    border-radius: 25px;
+}
+.dane_historia{
+    overflow: hidden;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    border-radius: 25px;
+}
+.tabela_produktow {
+    overflow: hidden;
+    width: 100%;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tr_naglowek {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #FFDEB4;
+}
+.tr_dane_akcyza {
+    border-top: 1px solid gray;
+}
+.tr_dane_suma {
+    font-weight: bold;
+}
+.th_naglowek {
+    padding: 15px;
+}
+.td_dane{
+    padding: 15px;
+}
+.td_dane_k{
+    padding: 15px;
+}
+.tr_dane_k:hover {
+    -moz-box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.55) inset;
+    -webkit-box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.55) inset;
+    -ms-box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.55) inset;
+    box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.55) inset;
+    cursor: pointer;
+}
+
+.tr_dane_zc{
+    transition: 0.4s;
+}
+.tr_dane_zc:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.tr_dane_k:hover td {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+.span_nr_listy{
+    cursor: pointer;
+}
+.span_nr_listy:hover{
+    color: #B2A4FF;
+}
+
+
+@media (max-width:1300px) {
+    .tabela_produktow {
+        font-size: 16px;
+    }
+    .th_naglowek {
+        padding: 10px;
+    }
+    .td_dane {
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .dane{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    border-radius: 0px;
+    }
+    .dane_historia{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    border-radius: 0px;
+    }
+}
