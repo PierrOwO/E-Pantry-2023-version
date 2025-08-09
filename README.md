@@ -19,5 +19,8 @@ To jest moja pierwsza wersja aplikacji **e-spiżarnia**, napisanej kilka lat tem
 Ten kod jest archiwalny i nie jest rozwijany. Udostępniam go w celach edukacyjnych i jako dokumentację moich pierwszych projektów.
 
 ---
+## Live Preview
+🔗 [Zobacz działającą wersję](https://dom.pieterapps.pl) *(wymaga logowania)*
+---
 
 > 💡 Aktualnie rozwijam nową wersję aplikacji **e-spiżarnia** z użyciem Laravel + Vue/Inertia.
